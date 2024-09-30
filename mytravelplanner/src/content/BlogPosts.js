@@ -1,0 +1,133 @@
+ import img1 from '../assets/destinations/des3.jpg'
+ import img2 from '../assets/destinations/des3.jpg'
+const blogPosts = [
+    {
+      id:10,
+      title: 'Top 5 Beach Destinations for 2024',
+      snippet: 'Discover the most breathtaking beach destinations around the world for your next getaway...',
+      content: `
+        Beaches are one of the most popular vacation spots worldwide, offering stunning views, relaxation, and adventure. In this blog, we explore the top five beach destinations for 2024...
+        1. Maldives - Perfect for a luxurious and tranquil escape...
+        2. Hawaii - A tropical paradise with stunning landscapes...
+        3. Bali, Indonesia - A beautiful blend of culture and natural beauty...
+        4. Santorini, Greece - Famous for its unique architecture and crystal-clear waters...
+        5. Bora Bora - A tropical oasis perfect for relaxation...
+        `,
+      image: img1,
+      author: 'Jane Smith',
+      date: 'September 25, 2024',
+    },
+    {
+      id: 9,
+      title: 'A Guide to Adventure Travel',
+      snippet: 'Adventure travel is a growing trend for those seeking excitement and adrenaline-pumping experiences...',
+      content: `
+        Adventure travel is all about exploring the unknown, pushing your limits, and experiencing the thrill of new challenges. Whether you prefer hiking up mountains, diving into deep waters, or zip-lining through forests, adventure travel has something for everyone...
+        Here’s a guide to the top adventure activities:
+        1. Mountain Climbing - Reach the peaks of some of the world’s highest mountains...
+        2. Scuba Diving - Dive deep into the ocean to explore marine life...
+        3. Zip-Lining - Fly over lush forests and valleys for an adrenaline rush...
+        `,
+      image: img2,
+      author: 'John Doe',
+      date: 'August 14, 2024',
+    },
+   {
+  id: 8,
+  title: 'Cultural Immersion: Best Cities to Experience in 2024',
+  snippet: 'Discover the top cities for an authentic cultural immersion on your next adventure...',
+  content: `
+    Exploring new cultures is one of the most enriching experiences for any traveler. In this blog, we highlight the top cities that offer unforgettable cultural experiences in 2024:
+    1. Kyoto, Japan - Steeped in tradition with temples, tea ceremonies, and beautiful gardens...
+    2. Istanbul, Turkey - A melting pot of Eastern and Western cultures with historic landmarks like the Hagia Sophia...
+    3. Marrakech, Morocco - Explore vibrant souks and experience the traditional Moroccan lifestyle...
+    4. Havana, Cuba - Step back in time with classic cars, salsa music, and a rich Cuban heritage...
+    5. Paris, France - The city of art, history, and culture, where every corner tells a story...
+    `,
+  image: "",
+  author: 'Emily Johnson',
+  date: 'October 5, 2024',
+},
+{
+  id: 7,
+  title: 'Top Eco-Friendly Destinations for Sustainable Travel',
+  snippet: 'Sustainability is becoming a priority for travelers. Explore the top eco-friendly destinations for a guilt-free vacation...',
+  content: `
+    As sustainability becomes a more prominent focus for travelers, eco-friendly destinations are gaining popularity. Here are some of the top spots for sustainable travel in 2024:
+    1. Costa Rica - Known for its biodiversity and eco-friendly tourism initiatives...
+    2. Norway - Leading the way in sustainable tourism with its untouched natural landscapes...
+    3. Bhutan - A carbon-negative country promoting cultural preservation and environmental protection...
+    4. Slovenia - A green gem in Europe with eco-resorts and natural wonders...
+    5. New Zealand - A leader in conservation efforts and home to pristine landscapes...
+    `,
+  image: "",
+  author: 'David Brown',
+  date: 'July 30, 2024',
+},
+{
+  id: 6,
+  title: 'A Foodie’s Guide to the Best Culinary Destinations',
+  snippet: 'Embark on a culinary journey to some of the world’s top food destinations...',
+  content: `
+    For food lovers, travel is not complete without exploring local cuisines. Here are the top destinations for culinary travel in 2024:
+    1. Italy - From pasta to pizza, Italy offers an unforgettable gastronomic experience...
+    2. Thailand - Known for its vibrant street food and spicy flavors...
+    3. Mexico - Savor authentic tacos, mole, and other traditional dishes...
+    4. India - A culinary delight with a wide variety of spices and regional dishes...
+    5. France - Experience fine dining and exquisite pastries in the heart of culinary excellence...
+    `,
+  image: "",
+  author: 'Sophia Lee',
+  date: 'June 18, 2024',
+},
+{
+  id: 5,
+  title: 'Luxury Travel: Best Destinations for 2024',
+  snippet: 'Indulge in the finest luxury travel experiences with our curated list of top destinations...',
+  content: `
+    If you're looking to splurge on your next vacation, these luxury travel destinations should be on your list for 2024:
+    1. Dubai, UAE - A city of opulence with luxurious hotels and world-class shopping...
+    2. Monaco - The epitome of luxury with glamorous casinos and lavish yachts...
+    3. Maldives - Known for its overwater villas and crystal-clear waters...
+    4. Bora Bora - A paradise for honeymooners seeking tranquility and luxury...
+    5. Switzerland - Experience the finest in hospitality surrounded by stunning alpine landscapes...
+    `,
+  image: "",
+  author: 'Oliver Williams',
+  date: 'May 22, 2024',
+},
+{
+  id: 4,
+  title: 'Best Family-Friendly Destinations for 2024',
+  snippet: 'Planning a family vacation? Here are the best destinations that cater to all ages...',
+  content: `
+    Traveling with family can be an adventure for everyone. Here are the top family-friendly destinations for 2024:
+    1. Orlando, USA - Home to Walt Disney World and Universal Studios, perfect for a family vacation...
+    2. Queensland, Australia - Explore the Great Barrier Reef and rainforest adventures that the whole family will love...
+    3. Tokyo, Japan - From kid-friendly museums to theme parks, Tokyo is great for family fun...
+    4. London, UK - Full of attractions such as the London Zoo and the Harry Potter Studio Tour...
+    5. Cancun, Mexico - Beautiful beaches, resorts, and activities for all family members...
+    `,
+  image: "",
+  author: 'Isabella Martinez',
+  date: 'April 12, 2024',
+},
+{
+  id: 3,
+  title: 'Solo Travel: Top Destinations for Independent Travelers',
+  snippet: 'Embarking on a solo journey? Here are the safest and most exciting destinations for solo travelers in 2024...',
+  content: `
+    Solo travel offers freedom and self-discovery, but it’s important to pick the right destinations. Here are the top solo travel spots for 2024:
+    1. Iceland - A safe and friendly destination with breathtaking landscapes...
+    2. Kyoto, Japan - Known for its peaceful atmosphere and cultural richness...
+    3. New Zealand - Ideal for solo travelers seeking adventure and serenity...
+    4. Portugal - A budget-friendly and welcoming country for solo travelers...
+    5. Canada - With vast wilderness and friendly locals, Canada is perfect for solo exploration...
+    `,
+  image:"",
+  author: 'Liam Scott',
+  date: 'March 2, 2024',
+},
+
+  ];
+  export default blogPosts
